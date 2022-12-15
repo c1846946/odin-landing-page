@@ -91,6 +91,9 @@ button {
     color: #F9FAF8;
     border-radius: 8px;
     font-size: 18px;
+    border-color: #F9FAF8;
+    flex-shrink: 0;
+    border-style: solid;
 }
 
 .photos-container {
@@ -135,4 +138,37 @@ button {
 
 .section-three-container {
     max-width: 1000px;
+}
+
+.section-four {
+    padding: 108px;
+    display:flex;
+    justify-content: center;
+}
+
+.four-container {
+    background-color: #3882f6;
+    display: flex;
+    padding: 12px 72px;
+   
+    min-width: 800px;
+    align-items: center;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.four-text {
+    padding: 24px 24px;
+    color: #c7cacf;
+}
+
+.four-title {
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button-2 {
+    margin: 24px 0px 24px 24px;
 }
